@@ -17,7 +17,26 @@ header{
 
 header input {
     outline: none;
-    border: solid 1px #eee;
+    border: solid 1px rgb(189, 187, 187);
     padding: 10px 5px;
     border-radius: 4px;
+}
+
+button {
+    background-color: rgb(255, 51, 0);
+    justify-content: center;
+    display: inline;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 4px;
+    border: solid 2px #fff;
+    outline: none;
+    transition: box-shadow 2s ease;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: aqua;
+    box-shadow: 2px 5px 3px  rgba(31, 209, 253, 0.3);
+    outline: none;
 }

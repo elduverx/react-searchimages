@@ -28,6 +28,7 @@ const App = () => {
         <Form>
           <h1>Created by Duver</h1>
           <Field name="search"></Field>
+          <button type="submit" onSubmit={Field}>Buscar</button>
         </Form>
 
       </Formik>
